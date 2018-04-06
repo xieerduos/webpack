@@ -2,20 +2,23 @@
     webpack4实现打包，配置webpack配置文件，热加载
 
 ##快速开始
+```nodejs 
     1-npm install webpack webpack-cli webpack-dev-server -g
     2-cd webpack4-demo
     3-npm install
     4-webpack-dev-server --config=config/webpack.dev.js
-
+```
 
 ##webpack4的详细步骤（window环境）
     
 
 ##1-全局安装
+```nodejs
 	npm install  webpack webpack-cli  webpack-dev-server -g
-
+```
 
 ##2-创建文件夹
+```javascript
 	cd Desktop/
 	mkdir  webpack-course      mkdir 创建一个文件夹
 	cd webpack-course
@@ -23,7 +26,7 @@
 	mkdir dist
 	mkdir config
 	ls         查看文件列表（有多少个 文件、文件夹）
-
+```
 
 ##3-git init .       初始化一个空的本地仓库（Git），便于后器对代码的管理
 
@@ -158,12 +161,14 @@
     </body>
 ```
 ####24-安装本地的webpack，webpack-cli以及webpack-dev-server
+```nodejs
 	npm install webpack  webpack-cli  webpack-dev-server  回车
-
+```
 
 ####25-启动项目，热更新（热加载）
+```ndoejs
 	webpack-dev-server   --config=config/webpack.dev.js  
-
+```
 
 ####26-在浏览器打开，刚刚 控制台 自动生成的地址，默认是localhost:8080
     ![Image text](https://raw.githubusercontent.com/xieerduos/webpack4-images/master/26.png)
