@@ -248,7 +248,7 @@ echo >dist/index.html   Ctrl + c              进入dist文件夹并创建一个
 
     
 ##31-在浏览器窗口输入 localhost:8080
-    ![Image text](https://raw.githubusercontent.com/xieerduos/webpack4-images/master/31.png)
+
 	
 
 ##32-修改一下main.js文件。
