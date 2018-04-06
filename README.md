@@ -258,6 +258,7 @@ echo >dist/index.html   Ctrl + c              进入dist文件夹并创建一个
 
 ```javascript
     alert("Hello World!！！！！！！！！！！");
+    
 浏览器实现了，自动刷新功能！
 ```
 
