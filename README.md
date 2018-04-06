@@ -209,9 +209,8 @@
 ```javascript
 	alert("Hello World!！！！！！！！！！！");
 ```
-
-    ![Image text](https://raw.githubusercontent.com/xieerduos/webpack4-images/master/31.png)
+    ![Image text](https://raw.githubusercontent.com/xieerduos/webpack4-images/master/32.png)
 	浏览器实现了，自动刷新功能！
-##33....
+
 
 
