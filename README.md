@@ -89,12 +89,13 @@
 
 
 ##18-webpack --config=config/webpack.dev.js
+```javascript
 	报错
 	Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema.
 	 - configuration.mode should be one of these:
 	   "development" | "production" | "none"
 	   -> Enable production optimizations or development hints.
-
+```
 
 ##19-修改webpack.dev.js配置文件，因为没有配置mode:""
 ```javascript
@@ -205,8 +206,11 @@
     ![Image text](https://raw.githubusercontent.com/xieerduos/webpack4-images/master/31.png)
 	
 ##32-修改一下main.js文件。
+` ``javascript
 	alert("Hello World!！！！！！！！！！！");
-	
+` ``
 	浏览器实现了，自动刷新功能！
+
+
     ![Image text](https://raw.githubusercontent.com/xieerduos/webpack4-images/master/32.png)
 
