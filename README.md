@@ -4,7 +4,7 @@
 ```
 
 ## 快速开始
-```javascript 
+```s 
     1-$  npm install webpack webpack-cli webpack-dev-server -g
     2-$  cd webpack-course
     3-$  npm install
@@ -15,12 +15,12 @@
     
 
 ## 1-全局安装
-```javascript
+```s
 	$  npm install  webpack webpack-cli  webpack-dev-server -g
 ```
 
 ## 2-创建文件夹
-```javascript
+```s
 	$  cd Desktop/
 	$  mkdir  webpack-course      mkdir 创建一个文件夹
 	$  cd webpack-course
@@ -31,8 +31,8 @@
 ```
 
 ## 3-
-```javascript
-    git init .       初始化一个空的本地仓库（Git），便于后器对代码的管理
+```s
+    $ git init .       初始化一个空的本地仓库（Git），便于后器对代码的管理
 
 ```
 ## 4-
