@@ -1,14 +1,14 @@
 ## webpack4
-```javascript
-    webpack4实现打包，配置webpack配置文件，热加载
+```t
+    webpack4详细入门教程
 ```
 
 ## 快速开始
 ```s 
-    1-$  npm install webpack webpack-cli webpack-dev-server -g
-    2-$  cd webpack-course
-    3-$  npm install
-    4-$  webpack-dev-server --config=config/webpack.dev.js
+    $  npm install webpack webpack-cli webpack-dev-server -g
+    $  cd webpack-course
+    $  npm install
+    $  npm run build
 ```
 
 ## webpack4的详细步骤（window环境）`
@@ -32,75 +32,75 @@
 
 ## 3-
 ```s
-    $ git init .       初始化一个空的本地仓库（Git），便于后器对代码的管理
+    $  git init .       初始化一个空的本地仓库（Git），便于后器对代码的管理
 
 ```
 ## 4-
-```javascript
-    npm init -y  创建一个package.json文件
+```s
+    $  npm init -y  创建一个package.json文件
 ```
 
 ## 5-
-```javascript
-echo >dist/index.html   Ctrl + c              进入dist文件夹并创建一个文件为index.html 
+```s
+	$  echo >dist/index.html   Ctrl + c              进入dist文件夹并创建一个文件为index.html 
 ```
 
 ## 6-
-```javascript
-    echo >src/index.js   Ctrl + c
+```s
+    $  echo >src/index.js   Ctrl + c
 ```
 
 
 ## 7-
-```
-    ls src/     查看src下的文件  列表
+```s
+    $  ls src/     查看src下的文件  列表
 ```
 
 
 ## 8-
-```
-    ls dist/
+```s
+    $  ls  dist/
 ```
 
 
 ## 9-
-```
-    code .     命令行方式打开vscode
+```s
+    $  code .     命令行方式打开vscode
 ```
 
 
 ## 10-
-```
-    webpack --mode=development   开发环境
+```s
+    $  webpack --mode=development   开发环境
 ```
 
 ## 11-
-```
-    webpack --mode=production  生产环境，非常小，只会打包用到的东西
+```s
+    $  webpack --mode=production  生产环境，非常小，只会打包用到的东西
 ```
 
 
 
 ## 12-
-```
-    cls   清空终端历史的  命令行
+```s
+    $  cls   清空终端历史的  命令行
 ```
 
 
 ## 13-
-```
-    echo >config/webpack.dev.js        创建一个配置文件
+```s
+    $  echo >config/webpack.dev.js        创建一个配置文件
 ```
 
 
 ## 14-
-```
-    rm  dist/main.js  删除dist下的main.js文件
+```s
+    $  rm  dist/main.js  删除dist下的main.js文件
 ```
 
 ## 15-
-```
-    rm  src/index.js   删除src下的index.js文件
+```s
+    $  rm  src/index.js   删除src下的index.js文件
 ```
 
 
@@ -122,13 +122,13 @@ echo >dist/index.html   Ctrl + c              进入dist文件夹并创建一个
 	}
 ```
 ## 17-
-```
-    echo  >src/main.js  创建一个入口文件
+```s
+    $  echo  >src/main.js  创建一个入口文件
 ```
 
 ## 18-
-```
-    webpack --config=config/webpack.dev.js
+```s
+    $  webpack --config=config/webpack.dev.js
 ```
 
 ```javascript
@@ -200,13 +200,13 @@ echo >dist/index.html   Ctrl + c              进入dist文件夹并创建一个
     </body>
 ```
 ## 24-安装本地的webpack，webpack-cli以及webpack-dev-server
-```javascript
-	npm install webpack  webpack-cli  webpack-dev-server  回车
+```s
+	$  npm install webpack  webpack-cli  webpack-dev-server  回车
 ```
 
 ## 25-启动项目，热更新（热加载）
-```ndoejs
-	webpack-dev-server   --config=config/webpack.dev.js  
+```s
+	$  webpack-dev-server   --config=config/webpack.dev.js  
 ```
 
 ## 26-在浏览器打开，刚刚 控制台 自动生成的地址，默认是localhost:8080
@@ -259,7 +259,7 @@ echo >dist/index.html   Ctrl + c              进入dist文件夹并创建一个
 ```javascript
     alert("Hello World!！！！！！！！！！！");
     
-浏览器实现了，自动刷新功能！
+	浏览器实现了，自动刷新功能！
 ```
 
 	
