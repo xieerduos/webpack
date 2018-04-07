@@ -5,10 +5,10 @@
 
 ## 快速开始
 ```javascript 
-    1-npm install webpack webpack-cli webpack-dev-server -g
-    2-cd webpack-course
-    3-npm install
-    4-webpack-dev-server --config=config/webpack.dev.js
+    1-$  npm install webpack webpack-cli webpack-dev-server -g
+    2-$  cd webpack-course
+    3-$  npm install
+    4-$  webpack-dev-server --config=config/webpack.dev.js
 ```
 
 ## webpack4的详细步骤（window环境）`
@@ -16,18 +16,18 @@
 
 ## 1-全局安装
 ```javascript
-	npm install  webpack webpack-cli  webpack-dev-server -g
+	$  npm install  webpack webpack-cli  webpack-dev-server -g
 ```
 
 ## 2-创建文件夹
 ```javascript
-	cd Desktop/
-	mkdir  webpack-course      mkdir 创建一个文件夹
-	cd webpack-course
-	mkdir src
-	mkdir dist
-	mkdir config
-	ls         查看文件列表（有多少个 文件、文件夹）
+	$  cd Desktop/
+	$  mkdir  webpack-course      mkdir 创建一个文件夹
+	$  cd webpack-course
+	$  mkdir src
+	$  mkdir dist
+	$  mkdir config
+	$  ls         查看文件列表（有多少个 文件、文件夹）
 ```
 
 ## 3-
