@@ -6,12 +6,12 @@
 ##快速开始
 ```javascript 
     1-npm install webpack webpack-cli webpack-dev-server -g
-    2-cd webpack4-course
+    2-cd webpack-course
     3-npm install
     4-webpack-dev-server --config=config/webpack.dev.js
 ```
 
-##webpack4的详细步骤（window环境）
+##webpack4的详细步骤（window环境）`
     
 
 ##1-全局安装
