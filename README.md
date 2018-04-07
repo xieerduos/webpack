@@ -212,8 +212,13 @@
 ## 26-在浏览器打开，刚刚 控制台 自动生成的地址，默认是localhost:8080
     ![Image text](https://raw.githubusercontent.com/xieerduos/webpack4-images/master/26.png)
 
+
+
+
 ## 27-发现错误，没有达到预期效果，需要点击dist文件才能打开index.html
     ![Image text](https://raw.githubusercontent.com/xieerduos/webpack4-images/master/27.png)
+
+
 
 ## 28-配置webpack.dev.js文件中  配置本地服务器
 ```javascript
@@ -242,14 +247,21 @@
 ## 29-终端，退出服务器
     ![Image text](https://raw.githubusercontent.com/xieerduos/webpack4-images/master/29.png)
 
+
+
+
 ## 30-重新启动服务器
 	webpack-dev-server  --config=config/webpack.dev.js
 	![Image text](https://raw.githubusercontent.com/xieerduos/webpack4-images/master/30.png)
 
     
+
+
 ## 31-在浏览器窗口输入 localhost:8080
     ![Image text](https://raw.githubusercontent.com/xieerduos/webpack4-images/master/31.png)
 	
+
+
 
 ## 32-修改一下main.js文件，在浏览器窗口输入 localhost:8080
 ![Image text](https://raw.githubusercontent.com/xieerduos/webpack4-images/master/32.png)
