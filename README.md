@@ -6,7 +6,7 @@
 ##快速开始
 ```javascript 
     1-npm install webpack webpack-cli webpack-dev-server -g
-    2-cd webpack4-demo
+    2-cd webpack4-course
     3-npm install
     4-webpack-dev-server --config=config/webpack.dev.js
 ```
